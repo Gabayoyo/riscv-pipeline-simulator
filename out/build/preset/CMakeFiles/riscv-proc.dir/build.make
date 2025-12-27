@@ -111,41 +111,41 @@ CMakeFiles/riscv-proc.dir/src/decode/regfile/regfile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/riscv-proc.dir/src/decode/regfile/regfile.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/leogabayoyo/Projects/virtual-riscv-proc/src/decode/regfile/regfile.cpp -o CMakeFiles/riscv-proc.dir/src/decode/regfile/regfile.cpp.s
 
-CMakeFiles/riscv-proc.dir/src/instTranslator/RISCop.cpp.o: CMakeFiles/riscv-proc.dir/flags.make
-CMakeFiles/riscv-proc.dir/src/instTranslator/RISCop.cpp.o: /Users/leogabayoyo/Projects/virtual-riscv-proc/src/instTranslator/RISCop.cpp
-CMakeFiles/riscv-proc.dir/src/instTranslator/RISCop.cpp.o: CMakeFiles/riscv-proc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/leogabayoyo/Projects/virtual-riscv-proc/out/build/preset/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/riscv-proc.dir/src/instTranslator/RISCop.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/riscv-proc.dir/src/instTranslator/RISCop.cpp.o -MF CMakeFiles/riscv-proc.dir/src/instTranslator/RISCop.cpp.o.d -o CMakeFiles/riscv-proc.dir/src/instTranslator/RISCop.cpp.o -c /Users/leogabayoyo/Projects/virtual-riscv-proc/src/instTranslator/RISCop.cpp
+CMakeFiles/riscv-proc.dir/src/sim/RISCop.cpp.o: CMakeFiles/riscv-proc.dir/flags.make
+CMakeFiles/riscv-proc.dir/src/sim/RISCop.cpp.o: /Users/leogabayoyo/Projects/virtual-riscv-proc/src/sim/RISCop.cpp
+CMakeFiles/riscv-proc.dir/src/sim/RISCop.cpp.o: CMakeFiles/riscv-proc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/leogabayoyo/Projects/virtual-riscv-proc/out/build/preset/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/riscv-proc.dir/src/sim/RISCop.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/riscv-proc.dir/src/sim/RISCop.cpp.o -MF CMakeFiles/riscv-proc.dir/src/sim/RISCop.cpp.o.d -o CMakeFiles/riscv-proc.dir/src/sim/RISCop.cpp.o -c /Users/leogabayoyo/Projects/virtual-riscv-proc/src/sim/RISCop.cpp
 
-CMakeFiles/riscv-proc.dir/src/instTranslator/RISCop.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/riscv-proc.dir/src/instTranslator/RISCop.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/leogabayoyo/Projects/virtual-riscv-proc/src/instTranslator/RISCop.cpp > CMakeFiles/riscv-proc.dir/src/instTranslator/RISCop.cpp.i
+CMakeFiles/riscv-proc.dir/src/sim/RISCop.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/riscv-proc.dir/src/sim/RISCop.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/leogabayoyo/Projects/virtual-riscv-proc/src/sim/RISCop.cpp > CMakeFiles/riscv-proc.dir/src/sim/RISCop.cpp.i
 
-CMakeFiles/riscv-proc.dir/src/instTranslator/RISCop.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/riscv-proc.dir/src/instTranslator/RISCop.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/leogabayoyo/Projects/virtual-riscv-proc/src/instTranslator/RISCop.cpp -o CMakeFiles/riscv-proc.dir/src/instTranslator/RISCop.cpp.s
+CMakeFiles/riscv-proc.dir/src/sim/RISCop.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/riscv-proc.dir/src/sim/RISCop.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/leogabayoyo/Projects/virtual-riscv-proc/src/sim/RISCop.cpp -o CMakeFiles/riscv-proc.dir/src/sim/RISCop.cpp.s
 
-CMakeFiles/riscv-proc.dir/src/instTranslator/instTranslator.cpp.o: CMakeFiles/riscv-proc.dir/flags.make
-CMakeFiles/riscv-proc.dir/src/instTranslator/instTranslator.cpp.o: /Users/leogabayoyo/Projects/virtual-riscv-proc/src/instTranslator/instTranslator.cpp
-CMakeFiles/riscv-proc.dir/src/instTranslator/instTranslator.cpp.o: CMakeFiles/riscv-proc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/leogabayoyo/Projects/virtual-riscv-proc/out/build/preset/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/riscv-proc.dir/src/instTranslator/instTranslator.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/riscv-proc.dir/src/instTranslator/instTranslator.cpp.o -MF CMakeFiles/riscv-proc.dir/src/instTranslator/instTranslator.cpp.o.d -o CMakeFiles/riscv-proc.dir/src/instTranslator/instTranslator.cpp.o -c /Users/leogabayoyo/Projects/virtual-riscv-proc/src/instTranslator/instTranslator.cpp
+CMakeFiles/riscv-proc.dir/src/sim/instTranslator.cpp.o: CMakeFiles/riscv-proc.dir/flags.make
+CMakeFiles/riscv-proc.dir/src/sim/instTranslator.cpp.o: /Users/leogabayoyo/Projects/virtual-riscv-proc/src/sim/instTranslator.cpp
+CMakeFiles/riscv-proc.dir/src/sim/instTranslator.cpp.o: CMakeFiles/riscv-proc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/leogabayoyo/Projects/virtual-riscv-proc/out/build/preset/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/riscv-proc.dir/src/sim/instTranslator.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/riscv-proc.dir/src/sim/instTranslator.cpp.o -MF CMakeFiles/riscv-proc.dir/src/sim/instTranslator.cpp.o.d -o CMakeFiles/riscv-proc.dir/src/sim/instTranslator.cpp.o -c /Users/leogabayoyo/Projects/virtual-riscv-proc/src/sim/instTranslator.cpp
 
-CMakeFiles/riscv-proc.dir/src/instTranslator/instTranslator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/riscv-proc.dir/src/instTranslator/instTranslator.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/leogabayoyo/Projects/virtual-riscv-proc/src/instTranslator/instTranslator.cpp > CMakeFiles/riscv-proc.dir/src/instTranslator/instTranslator.cpp.i
+CMakeFiles/riscv-proc.dir/src/sim/instTranslator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/riscv-proc.dir/src/sim/instTranslator.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/leogabayoyo/Projects/virtual-riscv-proc/src/sim/instTranslator.cpp > CMakeFiles/riscv-proc.dir/src/sim/instTranslator.cpp.i
 
-CMakeFiles/riscv-proc.dir/src/instTranslator/instTranslator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/riscv-proc.dir/src/instTranslator/instTranslator.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/leogabayoyo/Projects/virtual-riscv-proc/src/instTranslator/instTranslator.cpp -o CMakeFiles/riscv-proc.dir/src/instTranslator/instTranslator.cpp.s
+CMakeFiles/riscv-proc.dir/src/sim/instTranslator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/riscv-proc.dir/src/sim/instTranslator.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/leogabayoyo/Projects/virtual-riscv-proc/src/sim/instTranslator.cpp -o CMakeFiles/riscv-proc.dir/src/sim/instTranslator.cpp.s
 
 # Object files for target riscv-proc
 riscv__proc_OBJECTS = \
 "CMakeFiles/riscv-proc.dir/src/core/proc.cpp.o" \
 "CMakeFiles/riscv-proc.dir/src/decode/decoder/decoder.cpp.o" \
 "CMakeFiles/riscv-proc.dir/src/decode/regfile/regfile.cpp.o" \
-"CMakeFiles/riscv-proc.dir/src/instTranslator/RISCop.cpp.o" \
-"CMakeFiles/riscv-proc.dir/src/instTranslator/instTranslator.cpp.o"
+"CMakeFiles/riscv-proc.dir/src/sim/RISCop.cpp.o" \
+"CMakeFiles/riscv-proc.dir/src/sim/instTranslator.cpp.o"
 
 # External object files for target riscv-proc
 riscv__proc_EXTERNAL_OBJECTS =
@@ -153,8 +153,8 @@ riscv__proc_EXTERNAL_OBJECTS =
 riscv-proc: CMakeFiles/riscv-proc.dir/src/core/proc.cpp.o
 riscv-proc: CMakeFiles/riscv-proc.dir/src/decode/decoder/decoder.cpp.o
 riscv-proc: CMakeFiles/riscv-proc.dir/src/decode/regfile/regfile.cpp.o
-riscv-proc: CMakeFiles/riscv-proc.dir/src/instTranslator/RISCop.cpp.o
-riscv-proc: CMakeFiles/riscv-proc.dir/src/instTranslator/instTranslator.cpp.o
+riscv-proc: CMakeFiles/riscv-proc.dir/src/sim/RISCop.cpp.o
+riscv-proc: CMakeFiles/riscv-proc.dir/src/sim/instTranslator.cpp.o
 riscv-proc: CMakeFiles/riscv-proc.dir/build.make
 riscv-proc: CMakeFiles/riscv-proc.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/leogabayoyo/Projects/virtual-riscv-proc/out/build/preset/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable riscv-proc"

@@ -10,7 +10,10 @@ DecodedInst Decoder::decodeInstruction(uint32_t rawInstruction) {
             DecodedInstR decodedR(rawInstruction);
             return decodedR;
         }
-        
+        case 0b0010011: { // I-type instruction
+            DecodedInstI decodedI(rawInstruction);
+            return decodedI;
+        }
         default:
             throw runtime_error("Unsupported opcode: " + to_string(opcode));
     }

@@ -575,53 +575,53 @@ src/decode/regfile/regfile.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/decode/regfile/regfile.cpp.s
 .PHONY : src/decode/regfile/regfile.cpp.s
 
-src/instTranslator/RISCop.o: src/instTranslator/RISCop.cpp.o
-.PHONY : src/instTranslator/RISCop.o
+src/sim/RISCop.o: src/sim/RISCop.cpp.o
+.PHONY : src/sim/RISCop.o
 
 # target to build an object file
-src/instTranslator/RISCop.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/instTranslator/RISCop.cpp.o
-.PHONY : src/instTranslator/RISCop.cpp.o
+src/sim/RISCop.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/sim/RISCop.cpp.o
+.PHONY : src/sim/RISCop.cpp.o
 
-src/instTranslator/RISCop.i: src/instTranslator/RISCop.cpp.i
-.PHONY : src/instTranslator/RISCop.i
+src/sim/RISCop.i: src/sim/RISCop.cpp.i
+.PHONY : src/sim/RISCop.i
 
 # target to preprocess a source file
-src/instTranslator/RISCop.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/instTranslator/RISCop.cpp.i
-.PHONY : src/instTranslator/RISCop.cpp.i
+src/sim/RISCop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/sim/RISCop.cpp.i
+.PHONY : src/sim/RISCop.cpp.i
 
-src/instTranslator/RISCop.s: src/instTranslator/RISCop.cpp.s
-.PHONY : src/instTranslator/RISCop.s
+src/sim/RISCop.s: src/sim/RISCop.cpp.s
+.PHONY : src/sim/RISCop.s
 
 # target to generate assembly for a file
-src/instTranslator/RISCop.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/instTranslator/RISCop.cpp.s
-.PHONY : src/instTranslator/RISCop.cpp.s
+src/sim/RISCop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/sim/RISCop.cpp.s
+.PHONY : src/sim/RISCop.cpp.s
 
-src/instTranslator/instTranslator.o: src/instTranslator/instTranslator.cpp.o
-.PHONY : src/instTranslator/instTranslator.o
+src/sim/instTranslator.o: src/sim/instTranslator.cpp.o
+.PHONY : src/sim/instTranslator.o
 
 # target to build an object file
-src/instTranslator/instTranslator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/instTranslator/instTranslator.cpp.o
-.PHONY : src/instTranslator/instTranslator.cpp.o
+src/sim/instTranslator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/sim/instTranslator.cpp.o
+.PHONY : src/sim/instTranslator.cpp.o
 
-src/instTranslator/instTranslator.i: src/instTranslator/instTranslator.cpp.i
-.PHONY : src/instTranslator/instTranslator.i
+src/sim/instTranslator.i: src/sim/instTranslator.cpp.i
+.PHONY : src/sim/instTranslator.i
 
 # target to preprocess a source file
-src/instTranslator/instTranslator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/instTranslator/instTranslator.cpp.i
-.PHONY : src/instTranslator/instTranslator.cpp.i
+src/sim/instTranslator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/sim/instTranslator.cpp.i
+.PHONY : src/sim/instTranslator.cpp.i
 
-src/instTranslator/instTranslator.s: src/instTranslator/instTranslator.cpp.s
-.PHONY : src/instTranslator/instTranslator.s
+src/sim/instTranslator.s: src/sim/instTranslator.cpp.s
+.PHONY : src/sim/instTranslator.s
 
 # target to generate assembly for a file
-src/instTranslator/instTranslator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/instTranslator/instTranslator.cpp.s
-.PHONY : src/instTranslator/instTranslator.cpp.s
+src/sim/instTranslator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/sim/instTranslator.cpp.s
+.PHONY : src/sim/instTranslator.cpp.s
 
 # Help Target
 help:
@@ -670,12 +670,12 @@ help:
 	@echo "... src/decode/regfile/regfile.o"
 	@echo "... src/decode/regfile/regfile.i"
 	@echo "... src/decode/regfile/regfile.s"
-	@echo "... src/instTranslator/RISCop.o"
-	@echo "... src/instTranslator/RISCop.i"
-	@echo "... src/instTranslator/RISCop.s"
-	@echo "... src/instTranslator/instTranslator.o"
-	@echo "... src/instTranslator/instTranslator.i"
-	@echo "... src/instTranslator/instTranslator.s"
+	@echo "... src/sim/RISCop.o"
+	@echo "... src/sim/RISCop.i"
+	@echo "... src/sim/RISCop.s"
+	@echo "... src/sim/instTranslator.o"
+	@echo "... src/sim/instTranslator.i"
+	@echo "... src/sim/instTranslator.s"
 .PHONY : help
 
 
