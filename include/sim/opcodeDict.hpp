@@ -31,5 +31,4 @@ map<string, InstrEncoding> opcodeDict = {
     {"SLLI", {0b0010011, 0x1, 0x00}},
     {"SRLI", {0b0010011, 0x5, 0x00}},
     {"SRAI", {0b0010011, 0x5, 0x00}}, // funct7 actually 0x20 but will be encoded with the immediate
-    
 };

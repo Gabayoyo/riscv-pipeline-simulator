@@ -11,7 +11,7 @@ BuildDirectory: /Users/leogabayoyo/Projects/virtual-riscv-proc/build
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: MacBook-Pro.local
+Site: MacBook-Pro-126.local
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Darwin-c++

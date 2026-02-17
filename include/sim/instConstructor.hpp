@@ -1,16 +1,17 @@
 #pragma once
 
-#include "instMemory.hpp"
+#include "fetch/instMemory.hpp"
 
 #include <filesystem>
 
 #include <string>
+using namespace std;
 namespace fs = std::filesystem;
 
 class instConstructor {
     public:
         instConstructor() = default;
 
-        InstMemory constructInstMemoryFromFile(std::string filepath);
+        InstMemory constructInstMemoryFromFile(fs::path filepath);
 
 };

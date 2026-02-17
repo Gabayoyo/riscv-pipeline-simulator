@@ -575,6 +575,30 @@ src/decode/regfile/regfile.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/decode/regfile/regfile.cpp.s
 .PHONY : src/decode/regfile/regfile.cpp.s
 
+src/fetch/instMemory.o: src/fetch/instMemory.cpp.o
+.PHONY : src/fetch/instMemory.o
+
+# target to build an object file
+src/fetch/instMemory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/fetch/instMemory.cpp.o
+.PHONY : src/fetch/instMemory.cpp.o
+
+src/fetch/instMemory.i: src/fetch/instMemory.cpp.i
+.PHONY : src/fetch/instMemory.i
+
+# target to preprocess a source file
+src/fetch/instMemory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/fetch/instMemory.cpp.i
+.PHONY : src/fetch/instMemory.cpp.i
+
+src/fetch/instMemory.s: src/fetch/instMemory.cpp.s
+.PHONY : src/fetch/instMemory.s
+
+# target to generate assembly for a file
+src/fetch/instMemory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/fetch/instMemory.cpp.s
+.PHONY : src/fetch/instMemory.cpp.s
+
 src/sim/RISCop.o: src/sim/RISCop.cpp.o
 .PHONY : src/sim/RISCop.o
 
@@ -598,6 +622,30 @@ src/sim/RISCop.s: src/sim/RISCop.cpp.s
 src/sim/RISCop.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/sim/RISCop.cpp.s
 .PHONY : src/sim/RISCop.cpp.s
+
+src/sim/instConstructor.o: src/sim/instConstructor.cpp.o
+.PHONY : src/sim/instConstructor.o
+
+# target to build an object file
+src/sim/instConstructor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/sim/instConstructor.cpp.o
+.PHONY : src/sim/instConstructor.cpp.o
+
+src/sim/instConstructor.i: src/sim/instConstructor.cpp.i
+.PHONY : src/sim/instConstructor.i
+
+# target to preprocess a source file
+src/sim/instConstructor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/sim/instConstructor.cpp.i
+.PHONY : src/sim/instConstructor.cpp.i
+
+src/sim/instConstructor.s: src/sim/instConstructor.cpp.s
+.PHONY : src/sim/instConstructor.s
+
+# target to generate assembly for a file
+src/sim/instConstructor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/sim/instConstructor.cpp.s
+.PHONY : src/sim/instConstructor.cpp.s
 
 src/sim/instTranslator.o: src/sim/instTranslator.cpp.o
 .PHONY : src/sim/instTranslator.o
@@ -670,9 +718,15 @@ help:
 	@echo "... src/decode/regfile/regfile.o"
 	@echo "... src/decode/regfile/regfile.i"
 	@echo "... src/decode/regfile/regfile.s"
+	@echo "... src/fetch/instMemory.o"
+	@echo "... src/fetch/instMemory.i"
+	@echo "... src/fetch/instMemory.s"
 	@echo "... src/sim/RISCop.o"
 	@echo "... src/sim/RISCop.i"
 	@echo "... src/sim/RISCop.s"
+	@echo "... src/sim/instConstructor.o"
+	@echo "... src/sim/instConstructor.i"
+	@echo "... src/sim/instConstructor.s"
 	@echo "... src/sim/instTranslator.o"
 	@echo "... src/sim/instTranslator.i"
 	@echo "... src/sim/instTranslator.s"
