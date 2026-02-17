@@ -10,6 +10,7 @@ struct InstrEncoding {
     uint8_t funct7;
 };
 
+// RISC string to opcode/funct3/funct7 mapping
 map<string, InstrEncoding> opcodeDict = {
     // R-type
     {"ADD", {0b0110011, 0x0, 0x00}},
