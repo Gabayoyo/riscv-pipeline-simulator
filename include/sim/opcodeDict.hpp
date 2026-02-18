@@ -2,7 +2,7 @@
 
 #include <map>
 #include <string>
-using namespace std;
+#include <unordered_set>
 
 struct InstrEncoding {
     uint8_t opcode;
@@ -11,7 +11,7 @@ struct InstrEncoding {
 };
 
 // RISC string to opcode/funct3/funct7 mapping
-map<string, InstrEncoding> opcodeDict = {
+std::map<std::string, InstrEncoding> opcodeDict = {
     // R-type
     {"ADD", {0b0110011, 0x0, 0x00}},
     {"SUB", {0b0110011, 0x0, 0x20}},

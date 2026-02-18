@@ -5,7 +5,6 @@
 #include <filesystem>
 
 #include <string>
-using namespace std;
 namespace fs = std::filesystem;
 
 class instConstructor {

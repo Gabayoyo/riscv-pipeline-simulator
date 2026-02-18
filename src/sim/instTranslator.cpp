@@ -1,7 +1,7 @@
 #include "sim/instTranslator.hpp"
 #include "utils/utils.hpp"
 
-uint32_t InstTranslator::instTo32Bit(RISCop op) {
+uint32_t InstTranslator::instTo32Bit(const RISCop& op) {
     uint32_t instruction = 0;
 
     switch (op.opcode) {

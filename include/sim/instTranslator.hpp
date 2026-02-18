@@ -8,5 +8,5 @@ class InstTranslator {
         InstTranslator() = default;
 
         // translates a RISCop object into a 32-bit value
-        uint32_t instTo32Bit(RISCop op);
+        uint32_t instTo32Bit(const RISCop& op);
 };

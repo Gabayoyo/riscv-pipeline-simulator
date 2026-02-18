@@ -1,7 +1,6 @@
 #pragma once
 
 #include <array>
-using namespace std;
 
 // Register File
 class Regfile {
