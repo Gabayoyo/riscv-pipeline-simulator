@@ -11,7 +11,7 @@ BuildDirectory: /Users/leogabayoyo/Projects/virtual-riscv-proc/build
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: MacBook-Pro-126.local
+Site: MacBook-Pro-200.local
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Darwin-c++
@@ -63,8 +63,8 @@ UpdateOptions:
 UpdateType: git
 
 # Compiler info
-Compiler: /Library/Developer/CommandLineTools/usr/bin/c++
-CompilerVersion: 17.0.0.17000603
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
+CompilerVersion: 21.0.0.21000101
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 

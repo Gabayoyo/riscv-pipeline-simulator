@@ -1,11 +1,14 @@
 #pragma once
 
 #include <cstdint>
-#include <iostream>
+// We do not use iostream in the header file to avoid unnecessary dependencies
+// #include <iostream>
 
+// We use a namespace with a name for organisation and to avoid polluting the global namespace with utility functions
+// Different to blank namespace
 namespace utils {
 
-    
+    // returns the bits in the specified range [start, start + length) from the given value
     inline uint32_t selectBits(uint32_t value, unsigned int start, unsigned int length) {
         // Create a mask with 'length' number of 1s
         uint32_t mask = (static_cast<uint32_t>(1) << length) - 1;
@@ -27,5 +30,8 @@ namespace utils {
         value |= (bitsToSet << start) & mask;
         
         return value;
-    }   
+    } 
+
+    // print address in hex format with leading zeros and 0x prefix
+    void printAddress(uint32_t address);
 }

@@ -575,101 +575,77 @@ src/decode/regfile/regfile.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/decode/regfile/regfile.cpp.s
 .PHONY : src/decode/regfile/regfile.cpp.s
 
-src/fetch/instMemory.o: src/fetch/instMemory.cpp.o
-.PHONY : src/fetch/instMemory.o
+src/fetch/instrMemory.o: src/fetch/instrMemory.cpp.o
+.PHONY : src/fetch/instrMemory.o
 
 # target to build an object file
-src/fetch/instMemory.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/fetch/instMemory.cpp.o
-.PHONY : src/fetch/instMemory.cpp.o
+src/fetch/instrMemory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/fetch/instrMemory.cpp.o
+.PHONY : src/fetch/instrMemory.cpp.o
 
-src/fetch/instMemory.i: src/fetch/instMemory.cpp.i
-.PHONY : src/fetch/instMemory.i
+src/fetch/instrMemory.i: src/fetch/instrMemory.cpp.i
+.PHONY : src/fetch/instrMemory.i
 
 # target to preprocess a source file
-src/fetch/instMemory.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/fetch/instMemory.cpp.i
-.PHONY : src/fetch/instMemory.cpp.i
+src/fetch/instrMemory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/fetch/instrMemory.cpp.i
+.PHONY : src/fetch/instrMemory.cpp.i
 
-src/fetch/instMemory.s: src/fetch/instMemory.cpp.s
-.PHONY : src/fetch/instMemory.s
+src/fetch/instrMemory.s: src/fetch/instrMemory.cpp.s
+.PHONY : src/fetch/instrMemory.s
 
 # target to generate assembly for a file
-src/fetch/instMemory.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/fetch/instMemory.cpp.s
-.PHONY : src/fetch/instMemory.cpp.s
+src/fetch/instrMemory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/fetch/instrMemory.cpp.s
+.PHONY : src/fetch/instrMemory.cpp.s
 
-src/sim/RISCop.o: src/sim/RISCop.cpp.o
-.PHONY : src/sim/RISCop.o
+src/parser/parser.o: src/parser/parser.cpp.o
+.PHONY : src/parser/parser.o
 
 # target to build an object file
-src/sim/RISCop.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/sim/RISCop.cpp.o
-.PHONY : src/sim/RISCop.cpp.o
+src/parser/parser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/parser/parser.cpp.o
+.PHONY : src/parser/parser.cpp.o
 
-src/sim/RISCop.i: src/sim/RISCop.cpp.i
-.PHONY : src/sim/RISCop.i
+src/parser/parser.i: src/parser/parser.cpp.i
+.PHONY : src/parser/parser.i
 
 # target to preprocess a source file
-src/sim/RISCop.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/sim/RISCop.cpp.i
-.PHONY : src/sim/RISCop.cpp.i
+src/parser/parser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/parser/parser.cpp.i
+.PHONY : src/parser/parser.cpp.i
 
-src/sim/RISCop.s: src/sim/RISCop.cpp.s
-.PHONY : src/sim/RISCop.s
+src/parser/parser.s: src/parser/parser.cpp.s
+.PHONY : src/parser/parser.s
 
 # target to generate assembly for a file
-src/sim/RISCop.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/sim/RISCop.cpp.s
-.PHONY : src/sim/RISCop.cpp.s
+src/parser/parser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/parser/parser.cpp.s
+.PHONY : src/parser/parser.cpp.s
 
-src/sim/instConstructor.o: src/sim/instConstructor.cpp.o
-.PHONY : src/sim/instConstructor.o
+src/utils/utils.o: src/utils/utils.cpp.o
+.PHONY : src/utils/utils.o
 
 # target to build an object file
-src/sim/instConstructor.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/sim/instConstructor.cpp.o
-.PHONY : src/sim/instConstructor.cpp.o
+src/utils/utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/utils/utils.cpp.o
+.PHONY : src/utils/utils.cpp.o
 
-src/sim/instConstructor.i: src/sim/instConstructor.cpp.i
-.PHONY : src/sim/instConstructor.i
-
-# target to preprocess a source file
-src/sim/instConstructor.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/sim/instConstructor.cpp.i
-.PHONY : src/sim/instConstructor.cpp.i
-
-src/sim/instConstructor.s: src/sim/instConstructor.cpp.s
-.PHONY : src/sim/instConstructor.s
-
-# target to generate assembly for a file
-src/sim/instConstructor.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/sim/instConstructor.cpp.s
-.PHONY : src/sim/instConstructor.cpp.s
-
-src/sim/instTranslator.o: src/sim/instTranslator.cpp.o
-.PHONY : src/sim/instTranslator.o
-
-# target to build an object file
-src/sim/instTranslator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/sim/instTranslator.cpp.o
-.PHONY : src/sim/instTranslator.cpp.o
-
-src/sim/instTranslator.i: src/sim/instTranslator.cpp.i
-.PHONY : src/sim/instTranslator.i
+src/utils/utils.i: src/utils/utils.cpp.i
+.PHONY : src/utils/utils.i
 
 # target to preprocess a source file
-src/sim/instTranslator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/sim/instTranslator.cpp.i
-.PHONY : src/sim/instTranslator.cpp.i
+src/utils/utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/utils/utils.cpp.i
+.PHONY : src/utils/utils.cpp.i
 
-src/sim/instTranslator.s: src/sim/instTranslator.cpp.s
-.PHONY : src/sim/instTranslator.s
+src/utils/utils.s: src/utils/utils.cpp.s
+.PHONY : src/utils/utils.s
 
 # target to generate assembly for a file
-src/sim/instTranslator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/sim/instTranslator.cpp.s
-.PHONY : src/sim/instTranslator.cpp.s
+src/utils/utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/utils/utils.cpp.s
+.PHONY : src/utils/utils.cpp.s
 
 # Help Target
 help:
@@ -718,18 +694,15 @@ help:
 	@echo "... src/decode/regfile/regfile.o"
 	@echo "... src/decode/regfile/regfile.i"
 	@echo "... src/decode/regfile/regfile.s"
-	@echo "... src/fetch/instMemory.o"
-	@echo "... src/fetch/instMemory.i"
-	@echo "... src/fetch/instMemory.s"
-	@echo "... src/sim/RISCop.o"
-	@echo "... src/sim/RISCop.i"
-	@echo "... src/sim/RISCop.s"
-	@echo "... src/sim/instConstructor.o"
-	@echo "... src/sim/instConstructor.i"
-	@echo "... src/sim/instConstructor.s"
-	@echo "... src/sim/instTranslator.o"
-	@echo "... src/sim/instTranslator.i"
-	@echo "... src/sim/instTranslator.s"
+	@echo "... src/fetch/instrMemory.o"
+	@echo "... src/fetch/instrMemory.i"
+	@echo "... src/fetch/instrMemory.s"
+	@echo "... src/parser/parser.o"
+	@echo "... src/parser/parser.i"
+	@echo "... src/parser/parser.s"
+	@echo "... src/utils/utils.o"
+	@echo "... src/utils/utils.i"
+	@echo "... src/utils/utils.s"
 .PHONY : help
 
 

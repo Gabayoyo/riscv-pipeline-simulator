@@ -1,6 +1,8 @@
-#include "fetch/instMemory.hpp"
+#include "fetch/instrMemory.hpp"
+#include <iostream>
+using namespace std;
 
-InstMemory::InstMemory(std::vector<uint32_t> instructions) {
+InstrMemory::InstrMemory(std::vector<uint32_t> instructions) {
     // Convert vector of 32-bit instructions to byte vector
     for (uint32_t inst : instructions) {
         memory.push_back(static_cast<uint8_t>(inst & 0xFF));
@@ -10,7 +12,7 @@ InstMemory::InstMemory(std::vector<uint32_t> instructions) {
     }
 }
 
-uint32_t InstMemory::fetchInstruction(uint32_t address) {
+uint32_t InstrMemory::fetchInstruction(uint32_t address) {
     if (address + 3 >= memory.size()) {
         throw std::out_of_range("Address out of bounds for instruction memory");
     }

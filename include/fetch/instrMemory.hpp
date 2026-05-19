@@ -3,10 +3,10 @@
 #include <cstdint>
 #include <vector>
 
-class InstMemory {
+class InstrMemory {
     public:
         // constructor that takes a vector of 32-bit instructions and converts to byte vector for memory representation
-        InstMemory(std::vector<uint32_t> instructions);
+        InstrMemory(std::vector<uint32_t> instructions);
 
         // fetches a 32-bit instruction from the given address
         uint32_t fetchInstruction(uint32_t address);

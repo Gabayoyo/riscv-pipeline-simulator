@@ -11,7 +11,7 @@ BuildDirectory: /Users/leogabayoyo/Projects/virtual-riscv-proc/out/build/preset
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: MacBook-Pro-126.local
+Site: MacBook-Pro-200.local
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Darwin-clang++
@@ -64,7 +64,7 @@ UpdateType: git
 
 # Compiler info
 Compiler: /usr/bin/clang++
-CompilerVersion: 17.0.0.17000603
+CompilerVersion: 21.0.0.21000101
 
 # Dynamic analysis (MemCheck)
 PurifyCommand: 

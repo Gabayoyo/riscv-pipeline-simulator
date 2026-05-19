@@ -7,13 +7,13 @@
 class DecodedInst {
     public:
         virtual ~DecodedInst() = default;
+        uint32_t opcode;
 
     protected:
         // automatically extract opcode from raw bits
         DecodedInst(uint32_t bits) {
             opcode = utils::selectBits(bits, 0, 7);
         }
-        uint32_t opcode;
 };
 
 class DecodedInstR : public DecodedInst {
@@ -46,7 +46,7 @@ class DecodedInstI : public DecodedInst {
             rs1 = utils::selectBits(raw, 15, 5);
             immediate = static_cast<int32_t>(utils::selectBits(raw, 20, 12));
             // sign-extend immediate if necessary
-            if (immediate & (1 << 11)) {
+            if (immediate & (1u << 11)) {
                 immediate |= 0xFFFFF000; // set upper 20 bits to 1
             }
         }
