@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/leogabayoyo/Projects/virtual-riscv-proc/src/core/pipeline/decode/decoder.cpp" "CMakeFiles/riscv-proc.dir/src/core/pipeline/decode/decoder.cpp.o" "gcc" "CMakeFiles/riscv-proc.dir/src/core/pipeline/decode/decoder.cpp.o.d"
+  "/Users/leogabayoyo/Projects/virtual-riscv-proc/src/core/pipeline/fetch/iccm.cpp" "CMakeFiles/riscv-proc.dir/src/core/pipeline/fetch/iccm.cpp.o" "gcc" "CMakeFiles/riscv-proc.dir/src/core/pipeline/fetch/iccm.cpp.o.d"
   "/Users/leogabayoyo/Projects/virtual-riscv-proc/src/core/proc.cpp" "CMakeFiles/riscv-proc.dir/src/core/proc.cpp.o" "gcc" "CMakeFiles/riscv-proc.dir/src/core/proc.cpp.o.d"
-  "/Users/leogabayoyo/Projects/virtual-riscv-proc/src/decode/decoder/decoder.cpp" "CMakeFiles/riscv-proc.dir/src/decode/decoder/decoder.cpp.o" "gcc" "CMakeFiles/riscv-proc.dir/src/decode/decoder/decoder.cpp.o.d"
-  "/Users/leogabayoyo/Projects/virtual-riscv-proc/src/decode/regfile/regfile.cpp" "CMakeFiles/riscv-proc.dir/src/decode/regfile/regfile.cpp.o" "gcc" "CMakeFiles/riscv-proc.dir/src/decode/regfile/regfile.cpp.o.d"
-  "/Users/leogabayoyo/Projects/virtual-riscv-proc/src/fetch/instrMemory.cpp" "CMakeFiles/riscv-proc.dir/src/fetch/instrMemory.cpp.o" "gcc" "CMakeFiles/riscv-proc.dir/src/fetch/instrMemory.cpp.o.d"
+  "/Users/leogabayoyo/Projects/virtual-riscv-proc/src/core/regfile.cpp" "CMakeFiles/riscv-proc.dir/src/core/regfile.cpp.o" "gcc" "CMakeFiles/riscv-proc.dir/src/core/regfile.cpp.o.d"
   "/Users/leogabayoyo/Projects/virtual-riscv-proc/src/parser/parser.cpp" "CMakeFiles/riscv-proc.dir/src/parser/parser.cpp.o" "gcc" "CMakeFiles/riscv-proc.dir/src/parser/parser.cpp.o.d"
   "/Users/leogabayoyo/Projects/virtual-riscv-proc/src/utils/utils.cpp" "CMakeFiles/riscv-proc.dir/src/utils/utils.cpp.o" "gcc" "CMakeFiles/riscv-proc.dir/src/utils/utils.cpp.o.d"
   )

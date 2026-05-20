@@ -1,6 +1,6 @@
 CMakeFiles/riscv-proc.dir/src/parser/parser.cpp.o: \
   /Users/leogabayoyo/Projects/virtual-riscv-proc/src/parser/parser.cpp \
-  /Users/leogabayoyo/Projects/virtual-riscv-proc/include/parser/parser.hpp \
+  /Users/leogabayoyo/Projects/virtual-riscv-proc/include/asm/parser.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/filesystem \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__config_site \

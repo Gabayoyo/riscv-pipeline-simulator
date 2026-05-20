@@ -1,17 +1,117 @@
-# Build directories
+########################################
+# ===== CMake build artifacts =====
+########################################
+
 build/
 cmake-build-*/
 out/
+Debug/
+Release/
+RelWithDebInfo/
+MinSizeRel/
 
-# CMake generated files
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
 Makefile
 
-# IDE files (optional)
-.vscode/
-.idea/
+# Ninja builds
+*.ninja
+*.ninja.*
 
-# OS junk
+########################################
+# ===== Compiled objects =====
+########################################
+
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.exe
+*.out
+
+########################################
+# ===== Debug / runtime logs =====
+########################################
+
+*.log
+*.txt
+*.dump
+*.trace
+
+########################################
+# ===== Core dumps =====
+########################################
+
+core
+core.*
+
+########################################
+# ===== Compiler / tooling =====
+########################################
+
+*.d
+*.pch
+*.gch
+
+########################################
+# ===== IDEs =====
+########################################
+
+# VSCode
+.vscode/
+
+# CLion / JetBrains
+.idea/
+*.iml
+
+# Eclipse / others
+.project
+.cproject
+.settings/
+
+########################################
+# ===== OS files =====
+########################################
+
 .DS_Store
+Thumbs.db
+ehthumbs.db
+
+########################################
+# ===== C++ specific extras (optional but useful) =====
+
+# precompiled headers
+*.gch
+
+# sanitizers / runtime artifacts
+asan.log*
+ubsan.log*
+
+########################################
+# ===== Temporary / scratch =====
+########################################
+
+*.tmp
+*.temp
+
+########################################
+# ===== If you generate test programs / ISA outputs =====
+########################################
+
+tests/output/
+tests/build/
+*.out.txt
+
+########################################
+# ===== Keep CMake project files =====
+########################################
+
+!CMakeLists.txt
+!cmake/
+!toolchains/
