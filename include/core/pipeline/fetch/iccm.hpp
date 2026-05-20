@@ -3,13 +3,16 @@
 #include <cstdint>
 #include <vector>
 
-class InstrMemory {
+class ICCM {
     public:
         // constructor that takes a vector of 32-bit instructions and converts to byte vector for memory representation
-        InstrMemory(std::vector<uint32_t> instructions);
+        ICCM(std::vector<uint32_t> instructions);
 
         // fetches a 32-bit instruction from the given address
-        uint32_t fetchInstruction(uint32_t address);
+        uint32_t fetchInstruction(uint32_t address) const;
+
+        // purely for debugging
+        void printInstructions(uint32_t offset) const;
 
     private:
         // simple vector to represent instruction memory by byte

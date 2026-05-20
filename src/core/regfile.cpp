@@ -1,4 +1,4 @@
-#include "decode/regfile/regfile.hpp"
+#include "core/regfile.hpp"
 #include <iostream>
 using namespace std;
 

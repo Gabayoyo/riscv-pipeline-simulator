@@ -1,8 +1,8 @@
-#include "fetch/instrMemory.hpp"
+#include "fetch/iccm.hpp"
 #include <iostream>
 using namespace std;
 
-InstrMemory::InstrMemory(std::vector<uint32_t> instructions) {
+ICCM::ICCM(std::vector<uint32_t> instructions) {
     // Convert vector of 32-bit instructions to byte vector
     for (uint32_t inst : instructions) {
         memory.push_back(static_cast<uint8_t>(inst & 0xFF));
@@ -12,7 +12,8 @@ InstrMemory::InstrMemory(std::vector<uint32_t> instructions) {
     }
 }
 
-uint32_t InstrMemory::fetchInstruction(uint32_t address) {
+// we use const for two functions below as they do not modify the state of the instruction memory object
+uint32_t ICCM::fetchInstruction(uint32_t address) const {
     if (address + 3 >= memory.size()) {
         throw std::out_of_range("Address out of bounds for instruction memory");
     }
@@ -23,4 +24,11 @@ uint32_t InstrMemory::fetchInstruction(uint32_t address) {
     inst |= static_cast<uint32_t>(memory[address + 2]) << 16;
     inst |= static_cast<uint32_t>(memory[address + 3]) << 24;
     return inst;
+}
+
+void ICCM::printInstructions(uint32_t offset) const {
+    for (size_t i = offset; i < memory.size(); i += 4) {
+        uint32_t inst = fetchInstruction(i);
+        cout << "0x" << hex << (i) << ": 0x" << hex << inst << endl;
+    }
 }

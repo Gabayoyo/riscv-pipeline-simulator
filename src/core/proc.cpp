@@ -3,12 +3,12 @@ using namespace std;
 #include <filesystem>
 namespace fs = std::filesystem;
 
-#include "decode/regfile/regfile.hpp"
-#include "decode/decoder/decodedInst.hpp"
+#include "core/regfile.hpp"
+#include "core/pipeline/decode/decoder.hpp"
 #include "utils/utils.hpp"
-#include "decode/decoder/decoder.hpp"
+#include "core/pipeline/decode/decoder.hpp"
 #include "parser/parser.hpp"
-#include "fetch/instrMemory.hpp"
+#include "core/pipeline/fetch/iccm.hpp"
 
 #include "fstream"
 #include "filesystem"
@@ -19,8 +19,7 @@ int main() {
     fs::path filepath = dirPath / "test.txt";
     Parser parser = Parser();
     std::vector<uint32_t> instructions = parser.parseFile(filepath);
-    InstrMemory instrMemory(instructions);
-    uint32_t instr = instrMemory.fetchInstruction(0);
-    utils::printAddress(instr);
+    ICCM instrMemory(instructions);
+    instrMemory.printInstructions(0);
     return 0;
 }
