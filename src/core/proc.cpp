@@ -8,7 +8,7 @@ namespace fs = std::filesystem;
 #include "utils/utils.hpp"
 #include "pipeline/decoder.hpp"
 #include "asm/parser.hpp"
-#include "../../include/pipeline/iccm.hpp"
+#include "memory/iccm.hpp"
 
 #include "fstream"
 #include "filesystem"

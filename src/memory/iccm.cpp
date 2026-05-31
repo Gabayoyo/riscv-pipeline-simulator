@@ -1,4 +1,4 @@
-#include "pipeline/iccm.hpp"
+#include "memory/iccm.hpp"
 #include <iostream>
 using namespace std;
 
