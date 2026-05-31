@@ -1,7 +1,7 @@
 #pragma once
 
-#include "pipeline/stage.hpp"
-#include "piperegisters.hpp"
+#include "stage.hpp"
+#include "pipereg.hpp"
 #include "memory/iccm.hpp"
 
 // forward declarations to avoid circular dependencies
