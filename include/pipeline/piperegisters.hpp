@@ -1,9 +1,8 @@
 #pragma once
 
-#include "types/controlsignals.hpp"
-
 #include <cstdint>
 
+#include "types/controlsignals.hpp"
 
 struct IF_ID_Reg {
     uint32_t instruction;

@@ -4,9 +4,8 @@ using namespace std;
 namespace fs = std::filesystem;
 
 #include "core/regfile.hpp"
-#include "../../include/pipeline/decoder.hpp"
 #include "utils/utils.hpp"
-#include "pipeline/decoder.hpp"
+#include "isa/decoder.hpp"
 #include "asm/parser.hpp"
 #include "memory/iccm.hpp"
 
