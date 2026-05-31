@@ -4,11 +4,11 @@ using namespace std;
 namespace fs = std::filesystem;
 
 #include "core/regfile.hpp"
-#include "core/pipeline/decode/decoder.hpp"
+#include "../../include/pipeline/decoder.hpp"
 #include "utils/utils.hpp"
-#include "core/pipeline/decode/decoder.hpp"
+#include "pipeline/decoder.hpp"
 #include "asm/parser.hpp"
-#include "core/pipeline/fetch/iccm.hpp"
+#include "../../include/pipeline/iccm.hpp"
 
 #include "fstream"
 #include "filesystem"

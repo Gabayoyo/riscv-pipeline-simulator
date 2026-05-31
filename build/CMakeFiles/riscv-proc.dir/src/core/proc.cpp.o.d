@@ -832,9 +832,10 @@ CMakeFiles/riscv-proc.dir/src/core/proc.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Users/leogabayoyo/Projects/virtual-riscv-proc/include/core/regfile.hpp \
-  /Users/leogabayoyo/Projects/virtual-riscv-proc/include/core/pipeline/decode/decoder.hpp \
+  /Users/leogabayoyo/Projects/virtual-riscv-proc/src/core/../../include/pipeline/decoder.hpp \
   /Users/leogabayoyo/Projects/virtual-riscv-proc/include/utils/utils.hpp \
-  /Users/leogabayoyo/Projects/virtual-riscv-proc/include/core/pipeline/decode/decodedInst.hpp \
+  /Users/leogabayoyo/Projects/virtual-riscv-proc/src/core/../../include/pipeline/decodedInst.hpp \
+  /Users/leogabayoyo/Projects/virtual-riscv-proc/include/pipeline/decoder.hpp \
   /Users/leogabayoyo/Projects/virtual-riscv-proc/include/asm/parser.hpp \
-  /Users/leogabayoyo/Projects/virtual-riscv-proc/include/core/pipeline/fetch/iccm.hpp \
+  /Users/leogabayoyo/Projects/virtual-riscv-proc/src/core/../../include/pipeline/iccm.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk/usr/include/c++/v1/fstream

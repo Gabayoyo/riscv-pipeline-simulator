@@ -1,4 +1,4 @@
-#include "core/pipeline/decode/decoder.hpp"
+#include "pipeline/decoder.hpp"
 #include <iostream>
 #include <bitset>
 using namespace std;

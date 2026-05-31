@@ -69,38 +69,10 @@ include CMakeFiles/riscv-proc.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/riscv-proc.dir/flags.make
 
-CMakeFiles/riscv-proc.dir/src/core/pipeline/decode/decoder.cpp.o: CMakeFiles/riscv-proc.dir/flags.make
-CMakeFiles/riscv-proc.dir/src/core/pipeline/decode/decoder.cpp.o: /Users/leogabayoyo/Projects/virtual-riscv-proc/src/core/pipeline/decode/decoder.cpp
-CMakeFiles/riscv-proc.dir/src/core/pipeline/decode/decoder.cpp.o: CMakeFiles/riscv-proc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/leogabayoyo/Projects/virtual-riscv-proc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/riscv-proc.dir/src/core/pipeline/decode/decoder.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/riscv-proc.dir/src/core/pipeline/decode/decoder.cpp.o -MF CMakeFiles/riscv-proc.dir/src/core/pipeline/decode/decoder.cpp.o.d -o CMakeFiles/riscv-proc.dir/src/core/pipeline/decode/decoder.cpp.o -c /Users/leogabayoyo/Projects/virtual-riscv-proc/src/core/pipeline/decode/decoder.cpp
-
-CMakeFiles/riscv-proc.dir/src/core/pipeline/decode/decoder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/riscv-proc.dir/src/core/pipeline/decode/decoder.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/leogabayoyo/Projects/virtual-riscv-proc/src/core/pipeline/decode/decoder.cpp > CMakeFiles/riscv-proc.dir/src/core/pipeline/decode/decoder.cpp.i
-
-CMakeFiles/riscv-proc.dir/src/core/pipeline/decode/decoder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/riscv-proc.dir/src/core/pipeline/decode/decoder.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/leogabayoyo/Projects/virtual-riscv-proc/src/core/pipeline/decode/decoder.cpp -o CMakeFiles/riscv-proc.dir/src/core/pipeline/decode/decoder.cpp.s
-
-CMakeFiles/riscv-proc.dir/src/core/pipeline/fetch/iccm.cpp.o: CMakeFiles/riscv-proc.dir/flags.make
-CMakeFiles/riscv-proc.dir/src/core/pipeline/fetch/iccm.cpp.o: /Users/leogabayoyo/Projects/virtual-riscv-proc/src/core/pipeline/fetch/iccm.cpp
-CMakeFiles/riscv-proc.dir/src/core/pipeline/fetch/iccm.cpp.o: CMakeFiles/riscv-proc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/leogabayoyo/Projects/virtual-riscv-proc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/riscv-proc.dir/src/core/pipeline/fetch/iccm.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/riscv-proc.dir/src/core/pipeline/fetch/iccm.cpp.o -MF CMakeFiles/riscv-proc.dir/src/core/pipeline/fetch/iccm.cpp.o.d -o CMakeFiles/riscv-proc.dir/src/core/pipeline/fetch/iccm.cpp.o -c /Users/leogabayoyo/Projects/virtual-riscv-proc/src/core/pipeline/fetch/iccm.cpp
-
-CMakeFiles/riscv-proc.dir/src/core/pipeline/fetch/iccm.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/riscv-proc.dir/src/core/pipeline/fetch/iccm.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/leogabayoyo/Projects/virtual-riscv-proc/src/core/pipeline/fetch/iccm.cpp > CMakeFiles/riscv-proc.dir/src/core/pipeline/fetch/iccm.cpp.i
-
-CMakeFiles/riscv-proc.dir/src/core/pipeline/fetch/iccm.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/riscv-proc.dir/src/core/pipeline/fetch/iccm.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/leogabayoyo/Projects/virtual-riscv-proc/src/core/pipeline/fetch/iccm.cpp -o CMakeFiles/riscv-proc.dir/src/core/pipeline/fetch/iccm.cpp.s
-
 CMakeFiles/riscv-proc.dir/src/core/proc.cpp.o: CMakeFiles/riscv-proc.dir/flags.make
 CMakeFiles/riscv-proc.dir/src/core/proc.cpp.o: /Users/leogabayoyo/Projects/virtual-riscv-proc/src/core/proc.cpp
 CMakeFiles/riscv-proc.dir/src/core/proc.cpp.o: CMakeFiles/riscv-proc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/leogabayoyo/Projects/virtual-riscv-proc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/riscv-proc.dir/src/core/proc.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/leogabayoyo/Projects/virtual-riscv-proc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/riscv-proc.dir/src/core/proc.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/riscv-proc.dir/src/core/proc.cpp.o -MF CMakeFiles/riscv-proc.dir/src/core/proc.cpp.o.d -o CMakeFiles/riscv-proc.dir/src/core/proc.cpp.o -c /Users/leogabayoyo/Projects/virtual-riscv-proc/src/core/proc.cpp
 
 CMakeFiles/riscv-proc.dir/src/core/proc.cpp.i: cmake_force
@@ -114,7 +86,7 @@ CMakeFiles/riscv-proc.dir/src/core/proc.cpp.s: cmake_force
 CMakeFiles/riscv-proc.dir/src/core/regfile.cpp.o: CMakeFiles/riscv-proc.dir/flags.make
 CMakeFiles/riscv-proc.dir/src/core/regfile.cpp.o: /Users/leogabayoyo/Projects/virtual-riscv-proc/src/core/regfile.cpp
 CMakeFiles/riscv-proc.dir/src/core/regfile.cpp.o: CMakeFiles/riscv-proc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/leogabayoyo/Projects/virtual-riscv-proc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/riscv-proc.dir/src/core/regfile.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/leogabayoyo/Projects/virtual-riscv-proc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/riscv-proc.dir/src/core/regfile.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/riscv-proc.dir/src/core/regfile.cpp.o -MF CMakeFiles/riscv-proc.dir/src/core/regfile.cpp.o.d -o CMakeFiles/riscv-proc.dir/src/core/regfile.cpp.o -c /Users/leogabayoyo/Projects/virtual-riscv-proc/src/core/regfile.cpp
 
 CMakeFiles/riscv-proc.dir/src/core/regfile.cpp.i: cmake_force
@@ -128,7 +100,7 @@ CMakeFiles/riscv-proc.dir/src/core/regfile.cpp.s: cmake_force
 CMakeFiles/riscv-proc.dir/src/parser/parser.cpp.o: CMakeFiles/riscv-proc.dir/flags.make
 CMakeFiles/riscv-proc.dir/src/parser/parser.cpp.o: /Users/leogabayoyo/Projects/virtual-riscv-proc/src/parser/parser.cpp
 CMakeFiles/riscv-proc.dir/src/parser/parser.cpp.o: CMakeFiles/riscv-proc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/leogabayoyo/Projects/virtual-riscv-proc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/riscv-proc.dir/src/parser/parser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/leogabayoyo/Projects/virtual-riscv-proc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/riscv-proc.dir/src/parser/parser.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/riscv-proc.dir/src/parser/parser.cpp.o -MF CMakeFiles/riscv-proc.dir/src/parser/parser.cpp.o.d -o CMakeFiles/riscv-proc.dir/src/parser/parser.cpp.o -c /Users/leogabayoyo/Projects/virtual-riscv-proc/src/parser/parser.cpp
 
 CMakeFiles/riscv-proc.dir/src/parser/parser.cpp.i: cmake_force
@@ -138,6 +110,34 @@ CMakeFiles/riscv-proc.dir/src/parser/parser.cpp.i: cmake_force
 CMakeFiles/riscv-proc.dir/src/parser/parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/riscv-proc.dir/src/parser/parser.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/leogabayoyo/Projects/virtual-riscv-proc/src/parser/parser.cpp -o CMakeFiles/riscv-proc.dir/src/parser/parser.cpp.s
+
+CMakeFiles/riscv-proc.dir/src/pipeline/decoder.cpp.o: CMakeFiles/riscv-proc.dir/flags.make
+CMakeFiles/riscv-proc.dir/src/pipeline/decoder.cpp.o: /Users/leogabayoyo/Projects/virtual-riscv-proc/src/pipeline/decoder.cpp
+CMakeFiles/riscv-proc.dir/src/pipeline/decoder.cpp.o: CMakeFiles/riscv-proc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/leogabayoyo/Projects/virtual-riscv-proc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/riscv-proc.dir/src/pipeline/decoder.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/riscv-proc.dir/src/pipeline/decoder.cpp.o -MF CMakeFiles/riscv-proc.dir/src/pipeline/decoder.cpp.o.d -o CMakeFiles/riscv-proc.dir/src/pipeline/decoder.cpp.o -c /Users/leogabayoyo/Projects/virtual-riscv-proc/src/pipeline/decoder.cpp
+
+CMakeFiles/riscv-proc.dir/src/pipeline/decoder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/riscv-proc.dir/src/pipeline/decoder.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/leogabayoyo/Projects/virtual-riscv-proc/src/pipeline/decoder.cpp > CMakeFiles/riscv-proc.dir/src/pipeline/decoder.cpp.i
+
+CMakeFiles/riscv-proc.dir/src/pipeline/decoder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/riscv-proc.dir/src/pipeline/decoder.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/leogabayoyo/Projects/virtual-riscv-proc/src/pipeline/decoder.cpp -o CMakeFiles/riscv-proc.dir/src/pipeline/decoder.cpp.s
+
+CMakeFiles/riscv-proc.dir/src/pipeline/iccm.cpp.o: CMakeFiles/riscv-proc.dir/flags.make
+CMakeFiles/riscv-proc.dir/src/pipeline/iccm.cpp.o: /Users/leogabayoyo/Projects/virtual-riscv-proc/src/pipeline/iccm.cpp
+CMakeFiles/riscv-proc.dir/src/pipeline/iccm.cpp.o: CMakeFiles/riscv-proc.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/leogabayoyo/Projects/virtual-riscv-proc/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/riscv-proc.dir/src/pipeline/iccm.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/riscv-proc.dir/src/pipeline/iccm.cpp.o -MF CMakeFiles/riscv-proc.dir/src/pipeline/iccm.cpp.o.d -o CMakeFiles/riscv-proc.dir/src/pipeline/iccm.cpp.o -c /Users/leogabayoyo/Projects/virtual-riscv-proc/src/pipeline/iccm.cpp
+
+CMakeFiles/riscv-proc.dir/src/pipeline/iccm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/riscv-proc.dir/src/pipeline/iccm.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/leogabayoyo/Projects/virtual-riscv-proc/src/pipeline/iccm.cpp > CMakeFiles/riscv-proc.dir/src/pipeline/iccm.cpp.i
+
+CMakeFiles/riscv-proc.dir/src/pipeline/iccm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/riscv-proc.dir/src/pipeline/iccm.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/leogabayoyo/Projects/virtual-riscv-proc/src/pipeline/iccm.cpp -o CMakeFiles/riscv-proc.dir/src/pipeline/iccm.cpp.s
 
 CMakeFiles/riscv-proc.dir/src/utils/utils.cpp.o: CMakeFiles/riscv-proc.dir/flags.make
 CMakeFiles/riscv-proc.dir/src/utils/utils.cpp.o: /Users/leogabayoyo/Projects/virtual-riscv-proc/src/utils/utils.cpp
@@ -155,21 +155,21 @@ CMakeFiles/riscv-proc.dir/src/utils/utils.cpp.s: cmake_force
 
 # Object files for target riscv-proc
 riscv__proc_OBJECTS = \
-"CMakeFiles/riscv-proc.dir/src/core/pipeline/decode/decoder.cpp.o" \
-"CMakeFiles/riscv-proc.dir/src/core/pipeline/fetch/iccm.cpp.o" \
 "CMakeFiles/riscv-proc.dir/src/core/proc.cpp.o" \
 "CMakeFiles/riscv-proc.dir/src/core/regfile.cpp.o" \
 "CMakeFiles/riscv-proc.dir/src/parser/parser.cpp.o" \
+"CMakeFiles/riscv-proc.dir/src/pipeline/decoder.cpp.o" \
+"CMakeFiles/riscv-proc.dir/src/pipeline/iccm.cpp.o" \
 "CMakeFiles/riscv-proc.dir/src/utils/utils.cpp.o"
 
 # External object files for target riscv-proc
 riscv__proc_EXTERNAL_OBJECTS =
 
-riscv-proc: CMakeFiles/riscv-proc.dir/src/core/pipeline/decode/decoder.cpp.o
-riscv-proc: CMakeFiles/riscv-proc.dir/src/core/pipeline/fetch/iccm.cpp.o
 riscv-proc: CMakeFiles/riscv-proc.dir/src/core/proc.cpp.o
 riscv-proc: CMakeFiles/riscv-proc.dir/src/core/regfile.cpp.o
 riscv-proc: CMakeFiles/riscv-proc.dir/src/parser/parser.cpp.o
+riscv-proc: CMakeFiles/riscv-proc.dir/src/pipeline/decoder.cpp.o
+riscv-proc: CMakeFiles/riscv-proc.dir/src/pipeline/iccm.cpp.o
 riscv-proc: CMakeFiles/riscv-proc.dir/src/utils/utils.cpp.o
 riscv-proc: CMakeFiles/riscv-proc.dir/build.make
 riscv-proc: CMakeFiles/riscv-proc.dir/link.txt

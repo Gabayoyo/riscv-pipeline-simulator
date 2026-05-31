@@ -8,7 +8,7 @@
 
 using utils::setBitsInRange;
 
-// Namespace is used here as the tokenise function is only used in this file and doesn't need to be exposed outside
+// Namespace is used here as these contents are only used in this file and don't need to be exposed outside
 namespace {
     enum class Format  { R, I, S, B, U, J };
 

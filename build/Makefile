@@ -503,54 +503,6 @@ ContinuousSubmit/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContinuousSubmit.dir/build.make CMakeFiles/ContinuousSubmit.dir/build
 .PHONY : ContinuousSubmit/fast
 
-src/core/pipeline/decode/decoder.o: src/core/pipeline/decode/decoder.cpp.o
-.PHONY : src/core/pipeline/decode/decoder.o
-
-# target to build an object file
-src/core/pipeline/decode/decoder.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/core/pipeline/decode/decoder.cpp.o
-.PHONY : src/core/pipeline/decode/decoder.cpp.o
-
-src/core/pipeline/decode/decoder.i: src/core/pipeline/decode/decoder.cpp.i
-.PHONY : src/core/pipeline/decode/decoder.i
-
-# target to preprocess a source file
-src/core/pipeline/decode/decoder.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/core/pipeline/decode/decoder.cpp.i
-.PHONY : src/core/pipeline/decode/decoder.cpp.i
-
-src/core/pipeline/decode/decoder.s: src/core/pipeline/decode/decoder.cpp.s
-.PHONY : src/core/pipeline/decode/decoder.s
-
-# target to generate assembly for a file
-src/core/pipeline/decode/decoder.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/core/pipeline/decode/decoder.cpp.s
-.PHONY : src/core/pipeline/decode/decoder.cpp.s
-
-src/core/pipeline/fetch/iccm.o: src/core/pipeline/fetch/iccm.cpp.o
-.PHONY : src/core/pipeline/fetch/iccm.o
-
-# target to build an object file
-src/core/pipeline/fetch/iccm.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/core/pipeline/fetch/iccm.cpp.o
-.PHONY : src/core/pipeline/fetch/iccm.cpp.o
-
-src/core/pipeline/fetch/iccm.i: src/core/pipeline/fetch/iccm.cpp.i
-.PHONY : src/core/pipeline/fetch/iccm.i
-
-# target to preprocess a source file
-src/core/pipeline/fetch/iccm.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/core/pipeline/fetch/iccm.cpp.i
-.PHONY : src/core/pipeline/fetch/iccm.cpp.i
-
-src/core/pipeline/fetch/iccm.s: src/core/pipeline/fetch/iccm.cpp.s
-.PHONY : src/core/pipeline/fetch/iccm.s
-
-# target to generate assembly for a file
-src/core/pipeline/fetch/iccm.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/core/pipeline/fetch/iccm.cpp.s
-.PHONY : src/core/pipeline/fetch/iccm.cpp.s
-
 src/core/proc.o: src/core/proc.cpp.o
 .PHONY : src/core/proc.o
 
@@ -623,6 +575,54 @@ src/parser/parser.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/parser/parser.cpp.s
 .PHONY : src/parser/parser.cpp.s
 
+src/pipeline/decoder.o: src/pipeline/decoder.cpp.o
+.PHONY : src/pipeline/decoder.o
+
+# target to build an object file
+src/pipeline/decoder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/pipeline/decoder.cpp.o
+.PHONY : src/pipeline/decoder.cpp.o
+
+src/pipeline/decoder.i: src/pipeline/decoder.cpp.i
+.PHONY : src/pipeline/decoder.i
+
+# target to preprocess a source file
+src/pipeline/decoder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/pipeline/decoder.cpp.i
+.PHONY : src/pipeline/decoder.cpp.i
+
+src/pipeline/decoder.s: src/pipeline/decoder.cpp.s
+.PHONY : src/pipeline/decoder.s
+
+# target to generate assembly for a file
+src/pipeline/decoder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/pipeline/decoder.cpp.s
+.PHONY : src/pipeline/decoder.cpp.s
+
+src/pipeline/iccm.o: src/pipeline/iccm.cpp.o
+.PHONY : src/pipeline/iccm.o
+
+# target to build an object file
+src/pipeline/iccm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/pipeline/iccm.cpp.o
+.PHONY : src/pipeline/iccm.cpp.o
+
+src/pipeline/iccm.i: src/pipeline/iccm.cpp.i
+.PHONY : src/pipeline/iccm.i
+
+# target to preprocess a source file
+src/pipeline/iccm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/pipeline/iccm.cpp.i
+.PHONY : src/pipeline/iccm.cpp.i
+
+src/pipeline/iccm.s: src/pipeline/iccm.cpp.s
+.PHONY : src/pipeline/iccm.s
+
+# target to generate assembly for a file
+src/pipeline/iccm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/riscv-proc.dir/build.make CMakeFiles/riscv-proc.dir/src/pipeline/iccm.cpp.s
+.PHONY : src/pipeline/iccm.cpp.s
+
 src/utils/utils.o: src/utils/utils.cpp.o
 .PHONY : src/utils/utils.o
 
@@ -685,12 +685,6 @@ help:
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
 	@echo "... riscv-proc"
-	@echo "... src/core/pipeline/decode/decoder.o"
-	@echo "... src/core/pipeline/decode/decoder.i"
-	@echo "... src/core/pipeline/decode/decoder.s"
-	@echo "... src/core/pipeline/fetch/iccm.o"
-	@echo "... src/core/pipeline/fetch/iccm.i"
-	@echo "... src/core/pipeline/fetch/iccm.s"
 	@echo "... src/core/proc.o"
 	@echo "... src/core/proc.i"
 	@echo "... src/core/proc.s"
@@ -700,6 +694,12 @@ help:
 	@echo "... src/parser/parser.o"
 	@echo "... src/parser/parser.i"
 	@echo "... src/parser/parser.s"
+	@echo "... src/pipeline/decoder.o"
+	@echo "... src/pipeline/decoder.i"
+	@echo "... src/pipeline/decoder.s"
+	@echo "... src/pipeline/iccm.o"
+	@echo "... src/pipeline/iccm.i"
+	@echo "... src/pipeline/iccm.s"
 	@echo "... src/utils/utils.o"
 	@echo "... src/utils/utils.i"
 	@echo "... src/utils/utils.s"
