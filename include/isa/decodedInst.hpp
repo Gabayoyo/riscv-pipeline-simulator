@@ -4,6 +4,7 @@
 #include "utils/utils.hpp"
 
 // base class for decoded RISC-V instructions
+// probably will remove soon
 class DecodedInst {
     public:
         virtual ~DecodedInst() = default;
