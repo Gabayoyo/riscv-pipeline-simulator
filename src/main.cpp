@@ -2,6 +2,7 @@
 using namespace std;
 #include <filesystem>
 namespace fs = std::filesystem;
+#include "fstream"
 
 #include "core/regfile.hpp"
 #include "utils/utils.hpp"
@@ -9,9 +10,7 @@ namespace fs = std::filesystem;
 #include "asm/parser.hpp"
 #include "memory/iccm.hpp"
 #include "core/cpu.hpp"
-
-#include "fstream"
-#include "filesystem"
+#include "sim/simulator.hpp"
 
 int main() {
     fs::path dirPath  = "../input/"; // directory path for input files, can be changed as needed
@@ -26,8 +25,8 @@ int main() {
     CPU cpu(instrMemory, rf, bpu);
 
     Clock clk;
-    cpu.connect(clk);
-    clk.run(10);
+    Simulator sim(cpu, clk);
+    sim.run(10); // run simulation for 100 cycles, can be changed as needed
 
     return 0;
 }
