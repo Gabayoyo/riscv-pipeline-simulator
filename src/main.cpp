@@ -19,6 +19,7 @@ int main() {
     Parser parser = Parser();
     std::vector<uint32_t> instructions = parser.parseFile(filepath);
     ICCM instrMemory(instructions);
+
     Regfile rf;
     BPU bpu;
 
@@ -26,7 +27,7 @@ int main() {
 
     Clock clk;
     Simulator sim(cpu, clk);
-    sim.run(10); // run simulation for 100 cycles, can be changed as needed
+    sim.run(2); // run simulation for 100 cycles, can be changed as needed
 
     return 0;
 }
