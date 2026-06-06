@@ -3,11 +3,11 @@
 #include <cstdint>
 
 struct PipelineSignals {
-    bool stall_if = false;
-    bool stall_id = false;
+    bool stall_FCH = false;
+    bool stall_DEC = false;
 
-    bool flush_if = false;
-    bool flush_id = false;
+    bool flush_FCH = false;
+    bool flush_DEC = false;
 
     bool branch_taken = false;
     uint32_t branch_target = 0;
