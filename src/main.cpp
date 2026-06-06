@@ -27,7 +27,7 @@ int main() {
 
     Clock clk;
     Simulator sim(cpu, clk);
-    sim.run(2); // run simulation for 100 cycles, can be changed as needed
+    sim.run(3);
 
     return 0;
 }
