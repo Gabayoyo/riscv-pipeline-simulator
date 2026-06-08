@@ -6,7 +6,6 @@
 
 DecoderResult Decoder::decodeInstruction(uint32_t rawInstruction) {
     uint8_t opcode = rawInstruction & 0x7F;
-    std::cout << rawInstruction << std::endl;
 
     switch (opcode) {
         case 0b0010011:
