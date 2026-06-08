@@ -17,6 +17,7 @@ DecoderResult Decoder::decodeInstruction(uint32_t rawInstruction) {
 
 DecoderResult Decoder::decodeIType(uint32_t raw) {
     DecoderResult result{};
+    result.opcode = utils::selectBits(raw, 0, 7);
     result.rd = utils::selectBits(raw, 7, 5);
     result.funct3 = utils::selectBits(raw, 12, 3);
     result.rs1 = utils::selectBits(raw, 15, 5);

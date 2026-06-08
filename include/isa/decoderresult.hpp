@@ -7,7 +7,8 @@
 class DecoderResult {
     public:
         virtual ~DecoderResult() = default;
-
+        
+        unsigned int opcode : 7;
         unsigned int rs1 : 5;
         unsigned int rs2 : 5;
         unsigned int rd : 5;

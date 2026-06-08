@@ -12,8 +12,6 @@ struct IF_ID_Reg {
 struct ID_EX_Reg {
     uint32_t exe_pc = 0;
     uint32_t exe_reg1, exe_reg2, exe_src2;
-    uint32_t imm;
-    uint8_t  rd;
     bool valid = false;
     ControlSignals ctrl;
 };
