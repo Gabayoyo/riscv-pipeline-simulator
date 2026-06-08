@@ -2,13 +2,16 @@
 
 #include <cstdint>
 #include "utils/utils.hpp"
-#include "decodedInst.hpp"
+#include "decoderresult.hpp"
 
 class Decoder {
     public:
         Decoder() = default;
 
-        // decodes a 32-bit raw instruction into a DecodedInst object
-        // sends values to appropriate locations in decode stage
-        DecodedInst decodeInstruction(uint32_t rawInstruction);
+        // derives reg1, reg2, src2 (or immediate depending on mux)
+        // branch type if applicable
+        DecoderResult decodeInstruction(uint32_t rawInstruction);
+
+    private:
+        DecoderResult decodeIType(uint32_t raw);
 };

@@ -1,20 +1,30 @@
+#include <string>
+#include <set>
+
 #include "isa/decoder.hpp"
 #include <iostream>
-#include <bitset>
-using namespace std;
 
-DecodedInst Decoder::decodeInstruction(uint32_t rawInstruction) {
-    uint8_t opcode = utils::selectBits(rawInstruction, 0, 7);
+DecoderResult Decoder::decodeInstruction(uint32_t rawInstruction) {
+    uint8_t opcode = rawInstruction & 0x7F;
+    std::cout << rawInstruction << std::endl;
+
     switch (opcode) {
-        case 0b0110011: { // R-type instruction
-            DecodedInstR decodedR(rawInstruction);
-            return decodedR;
-        }
-        case 0b0010011: { // I-type instruction
-            DecodedInstI decodedI(rawInstruction);
-            return decodedI;
-        }
+        case 0b0010011:
+            return decodeIType(rawInstruction);
         default:
-            throw runtime_error("Unsupported opcode: " + to_string(opcode));
+            throw std::runtime_error("Unsupported opcode: " + std::to_string(opcode));
     }
+}
+
+DecoderResult Decoder::decodeIType(uint32_t raw) {
+    DecoderResult result{};
+    result.rd = utils::selectBits(raw, 7, 5);
+    result.funct3 = utils::selectBits(raw, 12, 3);
+    result.rs1 = utils::selectBits(raw, 15, 5);
+    result.imm = static_cast<int32_t>(utils::selectBits(raw, 20, 12));
+    // sign-extend immediate if necessary
+    if (result.imm & (1u << 11)) {
+        result.imm |= 0xFFFFF000; // set upper 20 bits to 1
+    }
+    return result;
 }
