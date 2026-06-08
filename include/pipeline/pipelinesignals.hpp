@@ -16,6 +16,7 @@ struct PipelineSignals {
     uint32_t exe_result = 0;
     unsigned int exe_dest : 5;
     bool exe_reg_write = false;
+    bool exe_load = false;
 
     // mem forwarding
     uint32_t mem_result = 0;
